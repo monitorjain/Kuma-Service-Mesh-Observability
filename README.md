@@ -142,9 +142,9 @@ Welcome back, now, let's add your unique New Relic License Key to the K8s deploy
 
 * On K8s, KUBERNETES, Run the following command:
 
-        cd kuma-0.7.1/bin && ls
+        cd kuma-0.7.XX/bin && ls
 
-        $ kumactl install control-plane | kubectl apply -f -
+        $ ./kumactl install control-plane | kubectl apply -f -
         
         $ kubectl get pods -n kuma-system (validate that kuma control plane is deployed and running)
         
